@@ -1,6 +1,6 @@
 # CRUD FULLSTACK Using REACT, EXPRESS/NODE, MYSQL
 This project was made with base in the video of Will Dev. In this project I created a crud fullstack.
-The tecnologies bellow was used:
+The tecnologies bellow was used:<br>
 -React to frontend.
 -Node.js using express, for the backend construction.
 -MySql as the database
