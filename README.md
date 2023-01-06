@@ -1,5 +1,5 @@
-# Getting Started with Create React App
-This projectwas made with base in the video of Will Dev. In this project I created a crud fullstack.
+# CRUD FULLSTACK Using REACT, EXPRESS/NODE, MYSQL
+This project was made with base in the video of Will Dev. In this project I created a crud fullstack.
 The tecnologies bellow was used:
 -React to frontend.
 -Node.js using express, for the backend construction.
