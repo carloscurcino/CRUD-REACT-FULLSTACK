@@ -6,7 +6,7 @@ The tecnologies bellow was used:<br>
 -MySql as the database<br>
 <br>
 For the deploy I used Heroku to deploy the backend and database. And Netlify for the frontend. The links are bellow:<br>
--Application: https://inquisitive-dodol-093b6f.netlify.app <br>
+-Application: https://crudreactfullstack.netlify.app <br>
 -Api: https://mysqlcruddeploy.herokuapp.com <br>
 <br>
 Videos that help me:<br>
