@@ -25,7 +25,7 @@ function App() {
 
   const getUsers = async () => {
     try {
-      const res = await axios.get("https://mysqlcruddeploy.herokuapp.com");
+      const res = await axios.get("https://crud-react-backend-fullstack-production.up.railway.app");
       setUsers(res.data.sort((a, b) => (a.nome > b.nome ? 1 : -1)));
     } catch (error) {
       toast.error(error);

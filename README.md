@@ -7,9 +7,9 @@ The tecnologies bellow was used:<br>
 -Node.js using express, for the backend construction.<br>
 -MySql as the database<br>
 <br>
-For the deploy I used Heroku to deploy the backend and database. And Netlify for the frontend. The links are bellow:<br>
+For the deploy I used Heroku to deploy the backend and database, but I changed to railway. And Netlify for the frontend. The links are bellow:<br>
 -Application: https://crudreactfullstack.netlify.app <br>
--Api: https://mysqlcruddeploy.herokuapp.com <br>
+-Api: crud-react-backend-fullstack-production.up.railway.app <br>
 <br>
 Videos that help me:<br>
 -build: https://www.youtube.com/watch?v=voXTVTW73E8&list=PLneufJWtSLTsL3b8-rtsNKVd8J1S7-yE2&index=6 <br>

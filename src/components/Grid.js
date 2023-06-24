@@ -46,7 +46,7 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
 
   const handleDelete = async (id) => {
     await axios
-      .delete("https://mysqlcruddeploy.herokuapp.com/" + id)
+      .delete("https://crud-react-backend-fullstack-production.up.railway.app/" + id)
       .then(({ data }) => {
         const newArray = users.filter((user) => user.id !== id);
 

@@ -69,7 +69,7 @@ const Form = ({ getUsers, onEdit, setOnEdit }) => {
 
     if (onEdit) {
       await axios
-        .put("https://mysqlcruddeploy.herokuapp.com/" + onEdit.id, {
+        .put("https://crud-react-backend-fullstack-production.up.railway.app/" + onEdit.id, {
           nome: user.nome.value,
           email: user.email.value,
           fone: user.fone.value,
@@ -79,7 +79,7 @@ const Form = ({ getUsers, onEdit, setOnEdit }) => {
         .catch(({ data }) => toast.error(data));
     } else {
       await axios
-        .post("https://mysqlcruddeploy.herokuapp.com", {
+        .post("https://crud-react-backend-fullstack-production.up.railway.app", {
           nome: user.nome.value,
           email: user.email.value,
           fone: user.fone.value,
